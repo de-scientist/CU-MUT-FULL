@@ -1,6 +1,6 @@
 // src/pages/committees/CreativeCoordinatorPage.tsx
 import React from "react";
-import { LeaderProfileLayout } from "../../components/LeaderProfileLayout";
+import { LeaderProfileLayout } from "@/components/LeaderProfileLayout";
 
 export const CreativeCoordinatorPage: React.FC = () => (
   <LeaderProfileLayout
