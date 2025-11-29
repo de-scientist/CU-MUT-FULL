@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 // Public pages
-import { HomePage } from "./pages/HomePage";
+import { HomePage
 import { AboutPage } from "./pages/AboutPage";
 import { MinistriesPage } from "./pages/MinistriesPage";
 import { EventsPage } from "./pages/EventsPage";

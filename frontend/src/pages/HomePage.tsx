@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { useUIStore } from "./store/uiStore";
+import { useUIStore } from "@/store/uiStore";
 
 import { Button } from "@/components/ui/button";
 import {
