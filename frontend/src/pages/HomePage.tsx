@@ -356,6 +356,7 @@ const HeroSection: React.FC = () => {
             className={`h-2 w-2 rounded-full transition-all ${
               idx === activeIndex ? "w-6 bg-mutcu-orange" : "bg-white/60"
             }`}
+            title="set"
           />
         ))}
       </div>
