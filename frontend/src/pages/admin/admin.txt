@@ -1,1 +1,1 @@
-uild AdminResourcesPage and AdminGalleryPage
+build AdminResourcesPage and AdminGalleryPage

@@ -124,6 +124,7 @@ export const AdminEventsPage: React.FC = () => {
               className="w-full rounded-lg border border-slate-200 px-3 py-1.5 text-xs focus:border-mutcu-orange focus:outline-none focus:ring-2 focus:ring-mutcu-orange/30"
               value={form.title}
               onChange={(e) => setForm({ ...form, title: e.target.value })}
+              title="set-form
               required
             />
           </div>
