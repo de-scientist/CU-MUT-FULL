@@ -170,14 +170,14 @@ export const AppRouter: React.FC = () => (
           </RequireAdmin>
         }
       /> */}
-      <Route
+      {/* <Route
         path="/admin/finances"
         element={
           <RequireAdmin>
             <AdminFinancesPage />
           </RequireAdmin>
         }
-      />
+      /> */}
       <Route
         path="/admin/programs"
         element={
