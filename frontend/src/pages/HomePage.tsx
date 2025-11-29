@@ -700,6 +700,7 @@ const TestimonialsSection: React.FC = () => {
                 className={`h-2 w-2 rounded-full transition-all ${
                   i === index ? "w-6 bg-mutcu-orange" : "bg-white/70"
                 }`}
+                title="set-index"
               />
             ))}
           </div>
