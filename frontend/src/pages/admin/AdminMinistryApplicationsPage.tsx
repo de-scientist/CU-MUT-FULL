@@ -122,7 +122,7 @@ export const AdminMinistryApplicationsPage: React.FC = () => {
                     ·{" "}
                     <i className="fas fa-phone mr-1 text-mutcu-orange" />
                     {app.phone}
-                  </>>
+                  </>
                 )}
               </p>
               <p className="mt-1 text-[10px] text-slate-500">
