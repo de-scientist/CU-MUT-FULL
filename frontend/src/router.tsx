@@ -202,14 +202,14 @@ export const AppRouter: React.FC = () => (
           </RequireAdmin>
         }
       /> */}
-      <Route
+      {/* <Route
         path="/admin/reports"
         element={
           <RequireAdmin>
             <AdminReportsPage />
           </RequireAdmin>
         }
-      />
+      /> */}
 
       {/* 404 fallback */}
       <Route path="*" element={<NotFoundPage />} />
