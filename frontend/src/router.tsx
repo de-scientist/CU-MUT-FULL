@@ -23,12 +23,12 @@ import { AdminLoginPage } from "./pages/admin/AdminLoginPage";
 import { AdminDashboardPage } from "./pages/admin/AdminDashboardPage";
 import { AdminEventsPage } from "./pages/admin/AdminEventsPage";
 import { AdminMinistryApplicationsPage } from "./pages/admin/AdminMinistryApplicationsPage";
-import { AdminMembersPage } from "./pages/admin/AdminMembersPage";
-import { AdminFinancesPage } from "./pages/admin/AdminFinancesPage";
-import { AdminProgramsPage } from "./pages/admin/AdminProgramsPage";
-import { AdminEvaluationsPage } from "./pages/admin/AdminEvaluationsPage";
-import { AdminNominationsPage } from "./pages/admin/AdminNominationsPage";
-import { AdminReportsPage } from "./pages/admin/AdminReportsPage";
+//import { AdminMembersPage } from "./pages/admin/AdminMembersPage";
+//import { AdminFinancesPage } from "./pages/admin/AdminFinancesPage";
+//import { AdminProgramsPage } from "./pages/admin/AdminProgramsPage";
+//import { AdminEvaluationsPage } from "./pages/admin/AdminEvaluationsPage";
+//import { AdminNominationsPage } from "./pages/admin/AdminNominationsPage";
+//import { AdminReportsPage } from "./pages/admin/AdminReportsPage";
 
 // Committee pages
 import { ChairmanPage } from "./pages/committees/ChairmanPage";
@@ -77,7 +77,7 @@ export const AppRouter: React.FC = () => (
       <Route path="/gallery" element={<GalleryPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/ministries/join" element={<JoinMinistryPage />} />
-      <Route path="/register" element={<RegisterMemberPage />} />
+      {/* <Route path="/register" element={<RegisterMemberPage />} /> */}
 
       {/* Committee (Executive Council & Coordinators) */}
       <Route path="/committees/chairman" element={<ChairmanPage />} />
