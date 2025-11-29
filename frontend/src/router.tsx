@@ -162,14 +162,14 @@ export const AppRouter: React.FC = () => (
           </RequireAdmin>
         }
       />
-      <Route
+      {/* <Route
         path="/admin/members"
         element={
           <RequireAdmin>
             <AdminMembersPage />
           </RequireAdmin>
         }
-      />
+      /> */}
       <Route
         path="/admin/finances"
         element={
