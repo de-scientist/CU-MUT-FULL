@@ -15,7 +15,7 @@ import { ResourcesPage } from "./pages/ResourcesPage";
 import { GalleryPage } from "./pages/GalleryPage";
 import { ContactPage } from "./pages/ContactPage";
 import { JoinMinistryPage } from "./pages/JoinMinistryPage";
-import { RegisterMemberPage } from "./pages/RegisterMemberPage";
+//import { RegisterMemberPage } from "./pages/RegisterMemberPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 
 // Admin pages
