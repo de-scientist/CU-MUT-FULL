@@ -1,0 +1,14 @@
+// ... existing imports
+import { JoinMinistryForm } from "../../components/JoinMinistryForm";
+
+// inside component return:
+    {/* existing overview & roles sections ... */}
+
+    <section className="bg-slate-50 py-12 md:py-16">
+      <div className="mx-auto max-w-4xl px-4 md:px-6">
+        <JoinMinistryForm ministryName="Music Ministry" />
+      </div>
+    </section>
+
+
+    Add near the bottom of the page where you invite users to join:

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --mutcu-navy: #04003d;
+    --mutcu-orange: #ff9700;
+    --mutcu-red: #ff1229;
+    --mutcu-teal: #30d5c8;
+  }
+
+  body {
+    @apply font-body text-slate-800 bg-slate-50 overflow-x-hidden antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading uppercase font-bold text-mutcu-navy;
+  }
+}
+
+@layer components {
+  .mutcu-section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 pb-4 relative text-center text-mutcu-navy;
+  }
+
+  .mutcu-section-title::after {
+    content: "";
+    @apply absolute left-1/2 -translate-x-1/2 w-24 h-1.5 rounded bg-mutcu-orange;
+    bottom: 0;
+  }
+}
