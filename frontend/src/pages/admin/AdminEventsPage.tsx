@@ -189,7 +189,7 @@ export const AdminEventsPage: React.FC = () => {
           <Button
             type="submit"
             className="w-full bg-mutcu-orange hover:bg-[#e68a00]"
-            disabled={saveMutation.isLoading}
+            disabled={saveMutation.isPending}
           >
             {saveMutation.isLoading
               ? "Saving..."
