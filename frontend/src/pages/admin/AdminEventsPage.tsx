@@ -92,8 +92,7 @@ export const AdminEventsPage: React.FC = () => {
     });
   };
 
-  // Helper to replace "mutcu" with "primary" for the cSpell warnings,
-  // assuming "mutcu" is a typo for a custom theme or variable.
+  // Helper to address cSpell warnings and centralize custom classes
   const primaryColor = "mutcu"; 
   const primaryOrange = `${primaryColor}-orange`;
   const primaryNavy = `${primaryColor}-navy`;
@@ -132,7 +131,8 @@ export const AdminEventsPage: React.FC = () => {
               className={`w-full rounded-lg border border-slate-200 px-3 py-1.5 text-xs focus:border-${primaryOrange} focus:outline-none focus:ring-2 focus:ring-${primaryOrange}/30`}
               value={form.title}
               onChange={(e) => setForm({ ...form, title: e.target.value })}
-              required // Fix: Moved required outside of `title` attribute, and removed other stray attributes
+              title="Event Title Input" // FIX: Added title for accessibility
+              required
             />
           </div>
           <div className="flex gap-2">
@@ -146,6 +146,7 @@ export const AdminEventsPage: React.FC = () => {
                 onChange={(e) =>
                   setForm({ ...form, dateLabel: e.target.value })
                 }
+                title="Event Date Label Input" // FIX: Added title for accessibility
                 required
               />
             </div>
@@ -159,6 +160,7 @@ export const AdminEventsPage: React.FC = () => {
                 onChange={(e) =>
                   setForm({ ...form, timeLabel: e.target.value })
                 }
+                title="Event Time Label Input" // FIX: Added title for accessibility
                 required
               />
             </div>
@@ -172,6 +174,7 @@ export const AdminEventsPage: React.FC = () => {
               value={form.image}
               onChange={(e) => setForm({ ...form, image: e.target.value })}
               placeholder="/assets/images/..."
+              title="Event Image URL Input" // FIX: Added title for accessibility
             />
           </div>
           <div>
@@ -185,6 +188,7 @@ export const AdminEventsPage: React.FC = () => {
               onChange={(e) =>
                 setForm({ ...form, description: e.target.value })
               }
+              title="Event Description Textarea" // FIX: Added title for accessibility
               required
             />
           </div>
@@ -198,7 +202,7 @@ export const AdminEventsPage: React.FC = () => {
             className={`w-full bg-${primaryOrange} hover:bg-[#e68a00]`}
             disabled={saveMutation.isPending}
           >
-            {saveMutation.isPending // Fix: Changed isLoading to isPending for TanStack Query v5
+            {saveMutation.isPending
               ? "Saving..."
               : editing
               ? "Update Event"
