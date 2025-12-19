@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUTCU Creative Arts Ministry - Worshipping Creatively</title>
+    <!-- Google Fonts: Montserrat for headings, Lato for body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS for Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS for this specific ministry page -->
+    <link rel="stylesheet" href="../../assets/css/creative-arts.css">
+</head>
+<body>
+    <!-- Navigation Bar (Consistent with Homepage) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../../assets/images/icon.png" alt="MUTCU Logo" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../ministries.html" aria-current="page">Ministries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero Section -->
+    <section class="page-hero-section d-flex align-items-center text-center text-white" style="background-image: url('https://images.pexels.com/photos/10312684/pexels-photo-10312684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="display-3 mb-3">MUTCU Creative Arts Ministry</h1>
+            <p class="lead">Inspiring Love, Hope & Godliness Through Artistic Expression</p>
+        </div>
+    </section>
+
+    <!-- Ministry Introduction Section -->
+    <section class="py-5 ministry-intro-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
+                    <h2 class="section-title text-start">About CREAM</h2>
+                    <p class="lead">The Creative Arts Ministry (CREAM) is a vibrant and diverse ministry dedicated to using artistic expression to glorify God and communicate the gospel. We believe that creativity is a divine gift, and we use various mediums like drama, dance, and spoken word to inspire, edify, and engage the MUTCU community and beyond.</p>
+                    <p>CREAM plays a vital role in our union's outreach and internal events, often collaborating with the Music Ministry to create powerful and memorable worship experiences. Our mission is to raise up a generation of creative worshippers who use their talents for God's kingdom.</p>
+                </div>
+                <div class="col-lg-5 text-center" data-aos="fade-left" data-aos-delay="200">
+                    <img src="https://images.pexels.com/photos/1841498/pexels-photo-1841498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Creative Arts Performance" class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Ensembles Section -->
+    <section class="py-5 bg-light creative-ensembles-section">
+        <div class="container">
+            <h2 class="section-title text-center">Our Creative Outlets</h2>
+            <p class="text-center lead mb-5">CREAM is a home for all forms of artistic expression. Click on the images to see more!</p>
+
+            <div class="row">
+                <!-- Dance -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="creative-card p-4 rounded-3 shadow-sm h-100">
+                        <div class="card-image-container mb-4">
+                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                                <img src="assets/images/dance3.jpg" alt="MUTCU Dance Team" class="img-fluid rounded-3">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-hand-spock dance-icon me-3"></i>
+                            <h3 class="card-title mb-0">Dance</h3>
+                        </div>
+                        <p>The Dance ministry uses choreographed movements to praise and worship God, creating a dynamic and expressive form of prayer. Our dancers minister during fellowships and special events, bringing stories to life through motion.</p>
+                        <h6>Meeting Time:</h6>
+                        <ul>
+                            <li>Weekly Practice: Wednesdays, 7:00 PM - 9:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Drama -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="creative-card p-4 rounded-3 shadow-sm h-100">
+                        <div class="card-image-container mb-4">
+                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal2">
+                                <img src="https://placehold.co/1200x800/30d5c8/ffffff?text=Drama+Performance" alt="MUTCU Drama Team" class="img-fluid rounded-3">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-theater-masks drama-icon me-3"></i>
+                            <h3 class="card-title mb-0">Drama</h3>
+                        </div>
+                        <p>The Drama team uses theatrical performances to illustrate biblical truths and explore contemporary issues from a Christian perspective. Their powerful skits and plays are a key component of our creative evangelism efforts.</p>
+                        <h6>Meeting Time:</h6>
+                        <ul>
+                            <li>Weekly Rehearsal: Wednesdays and Thursdays, 7:00 PM - 9:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- SPARCS (Spoken Word, Poetry, Arts) -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="creative-card p-4 rounded-3 shadow-sm h-100">
+                        <div class="card-image-container mb-4">
+                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal3">
+                                <img src="https://placehold.co/1200x800/ff1229/ffffff?text=Spoken+Word+and+Arts" alt="MUTCU SPARCS" class="img-fluid rounded-3">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-feather-alt sparcs-icon me-3"></i>
+                            <h3 class="card-title mb-0">SPARCS (Spoken Word, Poetry, Arts)</h3>
+                        </div>
+                        <p>This ministry is for those who love to communicate profound messages through the art of words and visuals. Our spoken word artists, poets, and visual artists use their craft to express faith and minister to the congregation.</p>
+                        <h6>Meeting Time:</h6>
+                        <ul>
+                            <li>Weekly Session: Tuesday, 7:00 PM - 9:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Modelling -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="creative-card p-4 rounded-3 shadow-sm h-100">
+                        <div class="card-image-container mb-4">
+                            <a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#imageModal4">
+                                <img src="https://placehold.co/1200x800/04003d/ffffff?text=Modelling+Ministry" alt="MUTCU Modelling" class="img-fluid rounded-3">
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-magic modelling-icon me-3"></i>
+                            <h3 class="card-title mb-0">Modelling</h3>
+                        </div>
+                        <p>The Modelling ministry uses fashion and presentation to exemplify Christian values and modesty. They organize events to showcase God's creativity in form and design, ministering through visual presentation.</p>
+                        <h6>Meeting Time:</h6>
+                        <ul>
+                            <li>Weekly Session: Wednesdays, 5:00 PM - 7:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Key Events Section -->
+    <section class="py-5 key-events-section text-white">
+        <div class="container">
+            <h2 class="section-title text-center text-white">Featured Events</h2>
+            <p class="text-center lead mb-5 text-white-50">CREAM is a key player in some of MUTCU's most anticipated events.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-right" data-aos-delay="100">
+                    <div class="event-highlight-card p-4 rounded-3 shadow-sm h-100">
+                        <i class="fas fa-palette event-icon mb-3"></i>
+                        <h4 class="card-title">Creative Night</h4>
+                        <p>An evening dedicated to showcasing the diverse talents of the creative arts ministry, from spoken word to drama. A time for inspiration and fellowship.</p>
+                        <p class="mb-0 text-muted"><i class="fas fa-calendar-alt me-2"></i> Next Date: 10th October</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="event-highlight-card p-4 rounded-3 shadow-sm h-100">
+                        <i class="fas fa-sparkles event-icon mb-3"></i>
+                        <h4 class="card-title">Creative Experience</h4>
+                        <p>A major event where CREAM takes center stage to deliver a powerful, immersive experience through a combination of drama, music, and visual arts.</p>
+                        <p class="mb-0 text-muted"><i class="fas fa-calendar-alt me-2"></i> Next Date: 21st November</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-left" data-aos-delay="300">
+                    <div class="event-highlight-card p-4 rounded-3 shadow-sm h-100">
+                        <i class="fas fa-holly-berry event-icon mb-3"></i>
+                        <h4 class="card-title">Christmas Cantata</h4>
+                        <p>A collaborative worship experience with the Music Ministry, celebrating the birth of Jesus with a blend of music, drama, and other creative expressions. A highlight of the spiritual year.</p>
+                        <p class="mb-0 text-muted"><i class="fas fa-calendar-alt me-2"></i> Next Date: 12th December</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Spotlight Section -->
+    <section class="py-5 leadership-spotlight-section text-white">
+        <div class="container text-center" data-aos="zoom-in">
+            <h2 class="section-title text-white">Ministry Leadership</h2>
+            <p class="lead mb-4 text-white-50">Guided by dedicated leadership, CREAM thrives.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <a href="../committees/creative-arts.html" class="executive-member-card d-block text-center text-decoration-none rounded-3 shadow-sm h-100 p-4">
+                        <img src="https://placehold.co/200x200/ff9700/ffffff?text=CREAM+Leader" alt="Creative Arts Ministry Leader" class="img-fluid rounded-circle mb-3 border border-3 border-navy">
+                        <h4 class="member-name">CREAM Coordinator</h4>
+                        <p class="member-role">Coordinator, Creative Arts Ministry</p>
+                        <span class="btn btn-sm btn-outline-light mt-2">View Profile <i class="fas fa-user-circle ms-2"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section with Join Form Trigger -->
+    <section class="py-5 cta-section text-white">
+        <div class="container text-center" data-aos="zoom-in">
+            <h2 class="section-title text-white">Join Our Creative Arts Ministry!</h2>
+            <p class="lead mb-4 text-white-50">If you have a passion for expressing your faith through art, we invite you to join CREAM. Click below to express your interest!</p>
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#joinMinistryModal">
+                Join This Ministry <i class="fas fa-hand-fist ms-2"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Join Ministry Modal -->
+    <div class="modal fade" id="joinMinistryModal" tabindex="-1" aria-labelledby="joinMinistryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary-dark text-white">
+                    <h5 class="modal-title" id="joinMinistryModalLabel">Join Creative Arts Ministry</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center mb-4">Fill out the form below to express your interest in joining CREAM. We'll get in touch with you shortly!</p>
+                    <form id="creativeMinistryJoinForm" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="joinName" class="form-label">Your Full Name</label>
+                            <input type="text" class="form-control" id="joinName" required placeholder="Jane Doe">
+                            <div class="invalid-feedback">
+                                Please enter your full name.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinEmail" class="form-label">Your University Email</label>
+                            <input type="email" class="form-control" id="joinEmail" required placeholder="janedoe@mut.ac.ke">
+                            <div class="invalid-feedback">
+                                Please enter a valid university email address.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinInterest" class="form-label">Area of Interest</label>
+                            <select class="form-select" id="joinInterest" required>
+                                <option value="" disabled selected>Select an area</option>
+                                <option value="dance">Dance</option>
+                                <option value="drama">Drama</option>
+                                <option value="sparcs">SPARCS (Spoken Word, Poetry, Arts)</option>
+                                <option value="modelling">Modelling</option>
+                                <option value="general">General Interest</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select your primary area of interest.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="joinMessage" class="form-label">Tell us about your creative skills or passion (Optional)</label>
+                            <textarea class="form-control" id="joinMessage" rows="3" placeholder="e.g., I have experience in graphic design and love writing poetry..."></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Submit Interest</button>
+                        </div>
+                    </form>
+                    <div id="modalConfirmationMessage" class="mt-4 text-center d-none">
+                        <i class="fas fa-check-circle fa-4x text-teal mb-3 animate-pop-in"></i>
+                        <p class="lead">Thank you for your interest in CREAM! We've received your submission and will get in touch with you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modals for each image/video -->
+    <!-- Dance Modal -->
+    <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal1Label">MUTCU Dance Ministry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://placehold.co/1600x900/ff9700/ffffff?text=Dance+Ministry+Performance" alt="MUTCU Dance Team" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Drama Modal -->
+    <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal2Label">MUTCU Drama Team</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://placehold.co/1600x900/30d5c8/ffffff?text=Drama+Performance" alt="MUTCU Drama Team" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SPARCS Modal -->
+    <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal3Label">MUTCU SPARCS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://placehold.co/1600x900/ff1229/ffffff?text=Spoken+Word+and+Arts" alt="MUTCU SPARCS" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modelling Modal -->
+    <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModal4Label">MUTCU Modelling Ministry</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://placehold.co/1600x900/04003d/ffffff?text=Modelling+Ministry+Performance" alt="MUTCU Modelling" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Consistent with Homepage) -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-title">About MUTCU</h5>
+                    <p class="footer-text">Murang’a University of Technology Christian Union is a non-denominational community dedicated to inspiring love, hope, and godliness through faith, unity, and service.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About</a></li>
+                        <li><a href="../ministries.html">Ministries</a></li>
+                        <li><a href="../events.html">Events</a></li>
+                        <li><a href="../resources.html">Resources</a></li>
+                        <li><a href="../gallery.html">Gallery</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="footer-title">Connect With Us</h5>
+                    <p class="footer-contact"><i class="fas fa-map-marker-alt me-2"></i> Murang’a University of Technology, Murang’a, Kenya</p>
+                    <p class="footer-contact"><i class="fas fa-phone me-2"></i> +254 712 345 678</p>
+                    <p class="footer-contact"><i class="fas fa-envelope me-2"></i> info@mutcu.ac.ke</p>
+                    <p class="footer-contact"><i class="fas fa-clock me-2"></i> Office Hours: Mon-Fri, 8:00 AM - 5:00 PM</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="me-3" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#" class="me-3" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5 border-top pt-4">
+                <p class="footer-text mb-1">&copy; 2025 Murang’a University of Technology Christian Union. All rights reserved.</p>
+                <p class="footer-text">Designed  by MUTCU Tech Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS for this specific ministry page -->
+    <script src="../../assets/js/creative-arts.js"></script>
+</body>
+</html>
