@@ -1,6 +1,6 @@
 # MUTCU Website – React + TypeScript + Tailwind + shadcn/ui
 
-A modern, responsive single-page application for **Murang’a University of Technology Christian Union (MUTCU)**, built with:
+A modern, responsive multi-page application for **Murang’a University of Technology Christian Union (MUTCU)**, built with:
 
 - **React + TypeScript**
 - **Vite** (bundler/dev server)
